@@ -4,7 +4,7 @@ import java.io.*;
 public class _1001
 {
 	public static void main(String[] args) throws IOException{
-		BufferedReader br = new BufferedReader( new InputStreamReader(System.in) );
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String inp = br.readLine();
 		StringTokenizer tk = new StringTokenizer(inp);
 		int a = Integer.parseInt(tk.nextToken());
